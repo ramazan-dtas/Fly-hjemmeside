@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RamAirline</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="Main.js"></script>
+</head>
+<body>
+    <div class="Lars">
+        <h1>RamAirlines</h1>
+    </div>
+    <div class="booking-form-box">
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
+            <input type="radio" class="btn" name="check"><span>Oneway</span>
+            <input type="radio" class="btn" name="check"><span>Multy-City</span>
+        </div>
+
+        <div class="booking-form">
+            <label for="">Flying from</label>
+            <input type="text" class="form-control" placeholder="city or airport">
+            <label for="">Flying to</label>
+            <input type="text" class="form-control" placeholder="city or airport">
+        </div>
+
+        <div class="input-grp">
+            <label for="">Departing</label>
+            <input type="date" class="form-control select-date">
+                
+        </div>
+
+        <div class="input-grp">
+            <label for="">Returing</label>
+            <input type="date" class="form-control select-date">
+        </div>
+
+        <div class="input-grp">
+            <label for="">Adults</label>
+            <input type="number" class="form-control" value="1">
+        </div>
+
+        <div class="input-grp">
+            <label for="">Children</label>
+            <input type="number" class="form-control" value="0">
+        </div>
+
+        <div class="input-grp">                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+            <label for="">Travel class</label>
+            <select name="" id="" class="custom-select">
+                <option value="1">economy class</option>
+                <option value="2">Bussiness class</option>
+                <option value="3">First class</option>
+            </select>
+        </div>
+
+        <div class="input-grp">
+            <button type="button" class="btn btn-primary flight">show flight</button>
+        </div>
+    </div>
+    <footer>
+        <hr>
+    </footer>
+    <h3>Populære lande</h3>
+    <section class="lande">
+        <div class="Country">
+            <div class="box">
+                <img src="img/Schweiz.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Schweiz</h2>
+                        <p>Fly til Schweiz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Japan.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Japan</h2>
+                        <p>Fly til Japan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Canada.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Canada</h2>
+                        <p>Fly til Canada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Tyskland.png" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Tyskland</h2>
+                        <p>Fly til Tyskland</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/UK.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>England</h2>
+                        <p>Fly til England</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/SW.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Sverige</h2>
+                        <p>Fly til Sverige</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Australien.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Australien</h2>
+                        <p>Fly til Australien</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/USA.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>USA</h2>
+                        <p>Fly til USA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Norge.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Norge</h2>
+                        <p>Fly til Norge</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Frankrig.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Frankrig</h2>
+                        <p>Fly til Frankrig</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="img/Singapore.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Singapore</h2>
+                        <p>Fly til Singapore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Tyrkiet.jpg" alt="">
+                <div class="details">
+                    <div class="content">
+                        <h2>Tyrkiet</h2>
+                        <p>Fly til Tyrkiet</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h3>Populære byer</h3>
+    <section class="CityS">
+        <div class="City">
+            <div class="box">
+                <img src="img/Bangkok.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Bangkok</h4>
+                        <p>Fly til Bangkok</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Paris.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Paris</h4>
+                        <p>Fly til Paris</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/London.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>London</h4>
+                        <p>Fly til London</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Dubai.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Dubai</h4>
+                        <p>Fly til Dubai</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Kuala Lumpur.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Kuala Lumpur</h4>
+                        <p>Fly til Kuala Lumpur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/New York.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>New York</h4>
+                        <p>Fly til New York City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Istanbul.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Istanbul</h4>
+                        <p>Fly til Istanbul</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Tokyo.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Tokyo</h4>
+                        <p>Fly til Tokyo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Berlin.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Berlin</h4>
+                        <p>Fly til Berlin</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/stockholm.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Stockholm</h4>
+                        <p>Fly til Stockholm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Oslo.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Oslo</h4>
+                        <p>Fly til Oslo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/Singapore.jpg" alt="">
+                <div class="detailC">
+                    <div class="contentC">
+                        <h4>Singapore</h4>
+                        <p>Fly til Singapore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="Nederste">    
+       <div class="top">
+            <a href="http://ramazandemirtas.com/">
+                <p>Udvikleren</p>
+            </a>
+
+            <a href="#">
+                <p>Om hjemmesiden</p>
+            </a>
+
+            <a href="http://ramazandemirtas.com/projekter.html">
+                <p>Har udvikleren lavet andre hjemmesider</p>
+            </a>
+            <div class="Alle-lande">
+                <h3>Alle destinationer</h3>
+                <a href="#">
+                    <p>Danmark</p>
+                </a>
+                
+                <a href="#">
+                    <p>Tyrkiet</p>
+                </a>
+                    
+                <a href="#">
+                    <p>Sverige</p>
+                </a>
+                    
+                
+                <a href="#">
+                    <p>USA</p>
+                </a>
+                    
+                <a href="#">
+                    <p>Norge</p>
+                </a>
+                <a href="#">
+                    <p>Tyskland</p>
+                </a>
+                    
+                <a href="#">
+                    <p>Finland</p>
+                </a>
+                <a href="#">
+                    <p>Belgien</p>
+                </a>
+                <a href="#">
+                    <p>Tjekkiet</p>
+                </a>
+                <a href="#">
+                    <p>Island</p>
+                </a>
+                <a href="#">
+                    <p>Brasilien</p>
+                </a>
+                <a href="#">
+                    <p>Portugal</p>
+                </a>
+                <a href="#">
+                    <p>Singapore</p>
+                </a>
+                <a href="#">
+                    <p>Japan</p>
+                </a>
+                <a href="#">
+                    <p>Schweiz</p>
+                </a>
+                <a href="#">
+                    <p>Canada</p>
+                </a>
+    
+                <a href="#">
+                    <p>Australien</p>
+                </a>
+    
+                <a href="#">
+                    <p>Frankrig</p>
+                </a>
+                <a href="#">
+                    <p>England</p>
+                </a>
+                <a href="#">
+                    <p>Kina</p>
+                </a>
+                <a href="#">
+                    <p>Nord Korea</p>
+                </a>
+    
+                <a href="#">
+                    <p>Syd Korea</p>
+                </a>
+    
+                <a href="#">
+                    <p>Polen</p>
+                </a>
+    
+                <a href="#">
+                    <p>Holland</p>
+                </a>
+    
+                <a href="#">
+                    <p>Rusland</p>
+                </a>
+            </div>
+    </div>
+    </footer>
+<!--
+    <section class="Destinationer">
+        <div class="Destination">
+            <h3>Rejseinspirationer</h3>
+            
+            <li>1.Bangkok</li>
+            <li>2.Paris</li>
+            <li>3.London</li>
+            <li>4.Dubai</li>
+            <li>5.Singapore</li>
+            <li>6.Kuala Lumpur</li>
+            <li>7.New York City</li>
+            <li>8.Istanbul</li>
+            <li>9.Tokyo</li>
+            <li>10.Antalya</li>
+            
+        </div>
+    </section>
+-->
+</body>
+</html>
